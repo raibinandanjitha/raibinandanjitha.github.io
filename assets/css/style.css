@@ -300,23 +300,35 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-hero .flexslider .slides li {
   background-repeat: no-repeat;
-  background-size:cover;
-  background-position:center;
-  min-height: 100vh;
-  height: 100vh;
-  position: relative;
+    background-size:cover;
+    background-position:center;
+    min-height: 100vh;
+    height: 100vh;
+    position: relative;
 }
-
+.slider-text-inner{
+  position: relative;
+  top: -360px;
+}
 @media screen and (max-width: 768px) {
   .slider-text-inner{
     position: relative;
-    top: -372px;
+    top: -320px;
   }
+  
   #fh5co-hero .flexslider .slides li{
     background-repeat: no-repeat;
     background-size:fill;
     /* background-position:center right; */
     width: 100%;
+  }
+  #fh5co-hero .flexslider .slides li {
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    min-height: 100vh;
+    height: 100vh;
+    position: relative;
   }
 }
 #fh5co-hero .flexslider .slides li:after {
@@ -381,7 +393,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
   font-size: 20px;
   line-height: 1.5;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-family: "Source Sans Pro", Arial, sans-serif;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 a {
